@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Users/marian.morar/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/marian.morar/GitHub/java-hook-proj/myproject/target/surefire/surefirebooter-20240912110351418_3.jar /Users/marian.morar/GitHub/java-hook-proj/myproject/target/surefire 2024-09-12T11-03-51_259-jvmRun1 surefire-20240912110351418_1tmp surefire_0-20240912110351418_2tmp"/>
+    <property name="sun.java.command" value="/Users/marian.morar/GitHub/java-hook-proj/myproject/target/surefire/surefirebooter-20240912115145436_3.jar /Users/marian.morar/GitHub/java-hook-proj/myproject/target/surefire 2024-09-12T11-51-45_378-jvmRun1 surefire-20240912115145436_1tmp surefire_0-20240912115145436_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/marian.morar/GitHub/java-hook-proj/myproject/target/test-classes:/Users/marian.morar/GitHub/java-hook-proj/myproject/target/classes:/Users/marian.morar/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/marian.morar/GitHub/java-hook-proj/myproject/target/surefire/surefirebooter-20240912110351418_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/marian.morar/GitHub/java-hook-proj/myproject/target/surefire/surefirebooter-20240912115145436_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.2"/>
     <property name="user.name" value="marian.morar"/>
@@ -55,5 +55,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testApp" classname="com.example.AppTest" time="0.001"/>
+  <testcase name="testApp" classname="com.example.AppTest" time="0.002"/>
 </testsuite>
