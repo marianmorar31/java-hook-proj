@@ -17,8 +17,8 @@
       <version>3.4.1</version>
       <configuration>
         <installHooks>
-          <commit-msg>hooks/commit-msg</commit-msg>
-          <pre-commit>hooks/pre-commit</pre-commit>
+          <commit-msg>hooks/commit-msg.sh</commit-msg>
+          <pre-commit>hooks/commit-msg.sh</pre-commit>
         </installHooks>
       </configuration>
       <executions>
