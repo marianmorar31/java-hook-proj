@@ -7,6 +7,31 @@
   <version>1.0-SNAPSHOT</version>
   <name>myproject</name>
   <url>http://maven.apache.org</url>
+
+<build>
+  <plugins>
+    <plugin>
+      <!-- A plugin to manage client git local configuration. This may be helpful for build hook automation. -->
+      <groupId>com.rudikershaw.gitbuildhook</groupId>
+      <artifactId>git-build-hook-maven-plugin</artifactId>
+      <version>3.4.1</version>
+      <configuration>
+        <installHooks>
+          <commit-msg>hooks/commit-msg</commit-msg>
+          <pre-commit>hooks/pre-commit</pre-commit>
+        </installHooks>
+      </configuration>
+      <executions>
+        <execution>
+          <goals>
+            <goal>install</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+  </plugins>
+</build>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
