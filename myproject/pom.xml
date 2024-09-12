@@ -16,7 +16,7 @@
   <version>3.0.0</version>
   <configuration>
     <gitConfig>
-      <core.hooksPath>etc/git-hooks/</core.hooksPath>
+      <core.hooksPath>git-hooks/</core.hooksPath>
     </gitConfig>
   </configuration>
   <executions>
